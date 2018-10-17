@@ -33,7 +33,6 @@ INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VAL
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (25, 'Guacamelee', 2, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (26, 'Knight Squad', 4, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (27, 'Lego Games', 2, 'PC');
-INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (28, 'Monaco', 4, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (29, 'Rayman Legends', 4, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (30, 'Rocket League', 4, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (31, 'Sonic Mania', 2, 'PC');
@@ -41,7 +40,6 @@ INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VAL
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (33, 'Wii Sports Resort', 4, 'Wii');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (34, 'Wii Play', 4, 'Wii');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (35, 'Wii Play Motion', 4, 'Wii');
-INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (36, 'Just Dance', 4, 'Wii');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (37, 'Kirby''s Dream Land', 4, 'Wii');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (38, 'Rock Band 3', 4, 'Wii');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (39, 'Mario Tennis Aces', 4, 'Switch');
