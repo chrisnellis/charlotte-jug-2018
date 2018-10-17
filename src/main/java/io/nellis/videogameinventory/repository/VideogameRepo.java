@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface VideogameRepo extends CrudRepository<VideogameEntity, Integer> {
     List<VideogameEntity> findAll();
+
+    List<VideogameEntity> findByMaxPlayersIsGreaterThanEqual(int max);
 }

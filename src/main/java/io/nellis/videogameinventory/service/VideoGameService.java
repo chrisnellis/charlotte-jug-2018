@@ -20,11 +20,21 @@ public class VideoGameService {
 
     public List<VideoGame> getAllGames() {
         List<VideogameEntity> videogameEntities = repo.findAll();
-        List<VideoGame> games = videogameEntities.stream()
+
+        return transform(videogameEntities);
+
+    }
+
+    public List<VideoGame> getGamesWithMinPlayers(int i) {
+        List<VideogameEntity> videogameEntities = repo.findByMaxPlayersIsGreaterThanEqual(i);
+
+        return transform(videogameEntities);
+    }
+
+    private List<VideoGame> transform(List<VideogameEntity> entities) {
+        return entities.stream()
                 .map(entity -> new VideoGame(entity))
                 .collect(Collectors.toList());
-        return games;
-
     }
 }
 
