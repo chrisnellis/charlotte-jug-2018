@@ -5,6 +5,16 @@ public class VideoGame {
     private int maxPlayers;
     private String platform;
 
+    public VideoGame() {
+
+    }
+
+    public VideoGame(VideogameEntity entity) {
+        this.name = entity.getVideogameName();
+        this.maxPlayers = entity.getMaxPlayers();
+        this.platform = entity.getPlatform();
+    }
+
     public String getName() {
         return name;
     }
