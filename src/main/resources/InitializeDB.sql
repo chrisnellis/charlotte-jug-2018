@@ -32,7 +32,7 @@ INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VAL
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (24, 'Goat Simulator', 4, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (25, 'Guacamelee', 2, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (26, 'Knight Squad', 4, 'PC');
-INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (27, 'Lego Games', 2, 'PC');
+INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (27, 'Lego VideoGame', 2, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (29, 'Rayman Legends', 4, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (30, 'Rocket League', 4, 'PC');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (31, 'Sonic Mania', 2, 'PC');
@@ -46,7 +46,7 @@ INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VAL
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (40, 'Namco Museum', 2, 'Switch');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (41, 'Overcooked 2', 4, 'Switch');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (42, 'Donkey Kong Tropical Freeze', 2, 'Switch');
-INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (43, 'Nintendo Games', 2, 'Switch');
+INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (43, 'Nintendo VideoGame', 2, 'Switch');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (44, 'Nintendo Land', 4, 'WiiU');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (45, 'Super Mario 3D World', 4, 'WiiU');
 INSERT INTO videogames.videogame (id, videogame_name, max_players, platform) VALUES (46, 'New Super Mario Bros U', 4, 'WiiU');
